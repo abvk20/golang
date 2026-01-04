@@ -30,10 +30,15 @@ There are 2 ways
 - false
 
 # Error
+
 It doesn't have exception mechanism like other languages.
+
 In Go it is built in the language.
+
 So in Go we simply return errors when things go wrong.
+
 If value is `nil` it would mean no error.
+
 ---
     type error interface {
         Error() string
