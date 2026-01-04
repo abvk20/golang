@@ -35,9 +35,9 @@ In Go it is built in the language.
 So in Go we simply return errors when things go wrong.
 If value is `nil` it would mean no error.
 ---
-type error interface {
-    Error() string
-}
+    type error interface {
+        Error() string
+    }
 ---
 The `Error` is a type
 It is value that has a method   
