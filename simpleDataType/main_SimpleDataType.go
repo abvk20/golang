@@ -8,9 +8,16 @@ func main() {
 	fmt.Println("There 4 Data types hold a single value")
 	fmt.Println("1. Stings \n2. Numbers \n3. Booleans \n4. Errors")
 
+	fmt.Println("------Strings------")
 	learnString()
+	fmt.Println("------Numbers------")
 	learnNumbers()
+	fmt.Println("------Boolean------")
 	learnBoolean()
-	learnErrors()
+	fmt.Println("------Variables------")
 	learnVariable()
+	fmt.Println("------Error------")
+	learnErrors()
+	fmt.Println("------Constants------")
+	learnConstants()
 }

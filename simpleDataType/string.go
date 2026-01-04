@@ -11,4 +11,11 @@ func learnString() {
 	fmt.Println(`But it will print exactly what
 is inside
 these backticks.`)
+	fmt.Println("\n---------Different Declarations in Go---------\n")
+
+	var myString string = "Hello World\n"      // Declared and Initialized
+	var myString2 = "Go will infer it\n"       // Inffered Declaration and initialization
+	myString3 := "For Short hand := is used\n" // short declaration syntax
+	// Go will declare a variable "myString3"
+	fmt.Println(myString, myString2, myString3)
 }
